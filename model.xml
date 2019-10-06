@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="Root">
+            <and mandatory="true" name="Operaciones">
+                <feature mandatory="true" name="ConsultarSaldo"/>
+                <feature mandatory="true" name="Retiros"/>
+                <feature name="Tranfererencia"/>
+                <feature name="Consignaciones"/>
+                <feature mandatory="true" name="Imprimir"/>
+            </and>
+            <feature name="RegistrosAuditoria"/>
+            <feature name="SaldoReducido"/>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>

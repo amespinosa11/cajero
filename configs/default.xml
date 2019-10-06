@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="Root"/>
+    <feature automatic="selected" name="Operaciones"/>
+    <feature automatic="selected" name="ConsultarSaldo"/>
+    <feature automatic="selected" name="Retiros"/>
+    <feature manual="selected" name="Tranfererencia"/>
+    <feature automatic="selected" name="Imprimir"/>
+</configuration>
